@@ -1,0 +1,45 @@
+/*공통*/
+* {
+    padding: 0; 
+    margin: 0; 
+    box-sizing: border-box
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    font-family: 'Noto Sans KR', 'Nanum Gothic', sans-serif; 
+    overflow-x: hidden;
+    color: #333;
+}
+
+a, a:active, a:focus, a:hover, a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+.wid_center {
+    position: relative;
+    width: 100%;
+    /*height: 1080px;*/
+    max-width: 1600px;
+    /*height: 864px;*/
+    /*height: 900px;*/
+    margin: 0 auto;
+}
+
+.big_wid_center {
+    position: relative;
+    width: 100%;
+    height: 900px;
+    margin: 0 auto;
+    overflow: hidden;
+} 
+
+.clear::before, clear::after {
+    display: block; 
+    content: ''; 
+    clear: both;
+}
